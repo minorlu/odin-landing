@@ -18,8 +18,12 @@ a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 .hero-block {
-  height: 75vh;
+  height: 600px;
   background-color: #1f2937;
 }
 
@@ -98,4 +102,132 @@ a {
   max-width: 500px;
   height: auto;
   min-width: 0px;
+}
+
+.information {
+  height: 500px;
+  color: #1f2937;
+}
+
+.information-container {
+  height: 100%;
+  max-width: 1124px;
+  padding: 0 120px 36px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.information-header {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 32px;
+}
+
+.info-blocks {
+  font-size: 18px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  gap: 32px;
+}
+
+.info-block {
+  width: 170px;
+  text-align: center;
+}
+
+.info-pic {
+  width: 100%;
+  padding-top: 100%;
+  border: #3882f6 solid 4px;
+  border-radius: 16px;
+  margin-bottom: 12px;
+}
+
+.quote {
+  height: 500px;
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+
+.quote-container {
+  height: 100%;
+  padding: 0 24px;
+  max-width: 850px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 18px;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: 600;
+  align-self: flex-end;
+}
+
+.action {
+  height: 300px;
+  background-color: #f9faf8;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.action-container {
+  background-color: #3882f6;
+  height: 125px;
+  width: 1024px;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 18px;
+  gap: 24px;
+}
+
+.action-heading {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.action-subtext {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.action-right {
+  min-width: 142px;
+}
+
+.action-btn {
+  font-size: 20px;
+  font-weight: 600;
+  color: #f9faf8;
+  background-color: transparent;
+  border: #f9faf8 solid 2px;
+  border-radius: 8px;
+  padding: 4px 32px;
+}
+
+.footer {
+  background-color: #1f2937;
+  font-size: 18px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 24px;
 }
